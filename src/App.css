@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.field-cell {
+  width: 100px;
+  height: 100px;
+  background: royalblue;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+}
